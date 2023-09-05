@@ -1,0 +1,120 @@
+body{
+    position: fixed;
+    left: 180px;
+    background-color: white;
+}
+
+.normalFont {
+    font-weight: 300;
+    font-size: 37px;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: -1.5px;
+}
+
+.boldFont{
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: larger;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: -1px;
+}
+
+.introText{
+    color: hsl(229, 6%, 66%);
+    font-weight: 100;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftContainer, .rightContainer{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 30px 75px 30px 30px;
+    height: 150px;
+    width: 260px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 130px;
+    color: hsl(229, 6%, 66%);
+}
+
+.supervisorImage{
+    position: absolute;
+    left: 280px;
+    top: 440px;
+}
+
+.middleContainerTop, .middleContainerBottom{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 30px 75px 30px 30px;
+    height: 150px;
+    width: 260px;
+    margin-bottom: 30px;
+    color: hsl(229, 6%, 66%)
+}
+
+.topic {
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-size: medium;
+    letter-spacing: -0.45px;
+
+ }
+
+.leftTopic, .rightTopic, .middleBottomTopic, .middleTopTopic{
+    font-weight: 700;
+    font-size: large;
+    color: hsl(234, 12%, 34%);
+}
+
+.middleContainerTop{
+    border-top: solid  hsl(0, 78%, 62%) 7px;
+    margin-top: 30px;
+}
+
+.middleContainerBottom{
+    border-top: solid  hsl(34, 97%, 64%) 7px;
+}
+
+.leftContainer{
+    border-top: solid hsl(180, 62%, 55%)7px;
+}
+
+.teambuilderImage{
+    position: absolute;
+    left: 670px;
+    top: 330px;
+}
+
+.calculatorImage{
+    position: absolute;
+    right: 60px;
+    top: 440px;
+}
+
+.karmaImage{
+    position: absolute;
+    left: 670px;
+    top: 580px;
+}
+
+.rightContainer{
+    border-top: solid hsl(212, 86%, 64%) 7px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
