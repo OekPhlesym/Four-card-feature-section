@@ -1,5 +1,6 @@
 body{
     position: fixed;
+    top: 100px;
     left: 180px;
     background-color: whitesmoke;
 }
